@@ -1,0 +1,49 @@
+* {
+  font-family: "League Spartan", sans-serif;
+  font-size: 15px;
+}
+
+.div-rated {
+  height: 7vh;
+  background-color: hsl(300deg, 24%, 96%);
+}
+
+.cards {
+  background-color: hsl(300deg, 43%, 22%);
+  color: hsl(0deg, 0%, 100%);
+}
+.cards > p {
+  margin-top: 1rem;
+}
+
+.div-data {
+  margin-left: 1rem;
+}
+
+.par-verified {
+  color: hsl(333deg, 80%, 67%);
+}
+
+.par-name {
+  margin: 0;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .div-container {
+    background-image: url("/images/bg-pattern-top-desktop.svg");
+    background-repeat: no-repeat;
+  }
+  .div-rated2 {
+    margin-left: 10%;
+  }
+  .div-rated3 {
+    margin-left: 20%;
+  }
+  .column-c2 {
+    margin-top: 3rem;
+  }
+  .column-c3 {
+    margin-top: 4rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
